@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>rezerwacja biletów</title>
+	</head>
+	<body>
+		<h2>Rezerwacja biletu lotniczego</h2>
+		<form action='#' ="get"><!--# to plik z danymi do wysyla/odczytu/zapisu/-->
+			Imie:<input type="tekst" name="imie" PLACEHOLDER="Tu wpisz swoje imię">, 
+			Nazwisko:<input type="tekst" name="nazwisko"><br>
+			<p>Wylot z: <select name+"wylot">
+				<option>wybierz</option>
+				<option>wawa</option>
+				<option>Gdańsk</option>
+				<option>Katowice</option>
+			</select></p>
+			<p>Przylot do: <select name+"przylot">
+				<option>wybierz</option>
+				<option>wawa</option>
+				<option>Gdańsk</option>
+				<option>Katowice</option>
+			</select></p>
+			<p>Miejsce VIP:<br>
+			TAK <input type="radio" name="tak" checked><br>
+			NIE <input type="radio" name="tak"><br></p>
+			<p>Dodatkowe opcje:<br>
+			Posiłek gorący <input type="checkbox" name="nameposiłek"><br>
+			Deser <input type="checkbox" name="nameposiłek">
+			</p>
+			<p>Uwagi:<br>
+			<textarea cols="40" rows="10" name="uwagi" PLACEHOLDER="Tu wpisz swoje uwagi"></textarea>
+			<p>
+			<input type="reset" value="wyczysc formularz">
+			<button type="submit">Wyślij formularz</button>
+			</p>
+		</form>
+	</body>	
+</html>

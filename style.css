@@ -1,0 +1,35 @@
+body { 
+	background-image: url('https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/itCjTBE/bright-blue-waves-elegant-abstract-background-video-corporate-animation-hd-1920x1080_4jj1mcrgg__F0000.png'); 
+			}
+			
+span {
+	background-color:red; font-size: 20px; color: white;
+			}
+			
+footer {
+	border: 1px solid blue; padding: 10px; margin: 20px; text-align: right;
+			}
+			
+h1 {
+	background-color:gray; color: white; padding: 20px;
+			}
+			
+h3 {
+	font-family: Verdana; font-size: 25px;
+			}
+			
+.center {
+	font-family: Arial; font-size: 30px; text-align: center;
+			}
+			
+div {
+	background-color:silver; border: 2px solid black; padding: 20px;
+			}
+			
+.prawa {
+	text-align: right;
+			}
+			
+.tekst {
+	text-align: right;
+			}
